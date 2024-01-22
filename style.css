@@ -9,6 +9,7 @@ h1{
     height: 5rem;
     line-height: 5rem;
 }
+
 .choice{
    height: 165px;
    width: 165px;
@@ -17,18 +18,20 @@ h1{
    justify-content: center;
    align-items: center;
 }
+
 .choice:hover{
     opacity: 0.8;
     cursor: pointer;
-    background-color: #081b31;
-   
+    background-color: #081b31; 
 }
+
 img{
     height: 150px;
     width: 150px; 
     object-fit: cover;
     border-radius: 50%;
 }
+
 .choices{
     display: flex;
     justify-content: center;
@@ -36,6 +39,7 @@ img{
     gap: 3rem;
     margin-top: 5rem;
 }
+
 .score-board{
     display: flex;
     justify-content: center;
@@ -44,15 +48,15 @@ img{
     margin-top: 3rem;
     gap: 5rem;
 }
-#choice-u,
-#choice-c,
 #user-score, 
 #comp-score {
     font-size: 4rem;
 }
+
 .msg{
     margin-top:5rem;
 }
+
 #msg{
     background-color: #081b31;
     color: #fff;
@@ -60,6 +64,5 @@ img{
     display: inline;
     padding: 1rem;
     border-radius: 1rem;
-
 }
 
